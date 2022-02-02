@@ -1,0 +1,23 @@
+@import "./sass/_font.scss";
+
+.App {
+	text-align: center;
+}
+
+button{
+	width: 133px;
+	padding: 13px;
+	text-transform: uppercase;
+}
+
+h2{
+	font-size: 2.5em;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: $headerFont;
+}
+
+p{
+	font-family: $bodyFont;
+}

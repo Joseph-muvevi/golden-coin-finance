@@ -1,0 +1,160 @@
+.banner {
+  height: 100vh;
+  max-width: 100vw;
+}
+
+.banner-main {
+  background: linear-gradient(to bottom, #2a2a29ad, #2a2a2971), url(../../assets/slider2.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: -14vh;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.banner-main-content {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.banner-main-content-left {
+  width: 50%;
+}
+
+.banner-main-content-right {
+  width: 50%;
+  text-align: left;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.banner-main-content-right-info {
+  display: flex;
+  height: 80%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.banner-p {
+  color: white;
+  font-size: 1.5em;
+}
+
+.banner-content-links {
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.banner-font-icon {
+  font-size: 1.5em;
+}
+
+.banner-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3em;
+}
+
+.home-services {
+  min-height: 70vh;
+}
+
+.home-services-content {
+  width: 75vw;
+  margin: auto;
+  min-height: 70vh;
+  text-align: left;
+}
+
+.home-service-header {
+  font-size: 2.5em;
+  height: 10vh;
+}
+
+.home-service-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.home-service-unit {
+  width: 33%;
+  padding-top: 20px;
+}
+
+.home-service-unit-header {
+  font-size: 1.7em;
+  text-transform: capitalize;
+  color: #2a2a29;
+}
+
+.home-service-unit-content {
+  font-size: 1.2em;
+  color: #2a2a29;
+}
+
+.home-about {
+  min-height: 100vh;
+  background-color: #fae8a7;
+  padding-top: 20px;
+}
+
+.home-about-content {
+  width: 75vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.home-about-left {
+  width: 49%;
+  text-align: left;
+}
+
+.home-about-subhead {
+  font-size: 1.7em;
+}
+
+.home-about-content-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-about-unit-header {
+  font-size: 1.7em;
+  text-transform: capitalize;
+  color: #2a2a29;
+}
+
+.home-about-unit-content {
+  font-size: 1.2em;
+  color: #2a2a29;
+}
+
+.home-about-image {
+  position: relative;
+  top: 30vh;
+  width: 450px;
+  max-height: 80vh;
+}
+
+.empty-space {
+  height: 60vh;
+  background-color: #fefbec;
+}/*# sourceMappingURL=home.css.map */
