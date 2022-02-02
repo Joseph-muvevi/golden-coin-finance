@@ -157,4 +157,75 @@
 .empty-space {
   height: 60vh;
   background-color: #fefbec;
+}
+
+.home-project {
+  min-height: 95vh;
+  background-color: #2a2a29;
+}
+
+.home-project-content {
+  width: 75vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-project-top {
+  width: 100%;
+  display: flex;
+  min-height: 65vh;
+  position: relative;
+  bottom: 10vh;
+}
+
+.home-project-top-left {
+  background-color: #fae8a7;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 39%;
+  padding: 0px 20px;
+}
+
+.home-project-unit-header {
+  font-size: 1.7em;
+  color: #2a2a29;
+}
+
+.home-project-unit-content {
+  font-size: 1.2em;
+  color: #2a2a29;
+}
+
+.banner-content-links {
+  color: #2a2a29;
+}
+
+.home-project-top-right {
+  background-image: url(../../assets/slider1.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 59%;
+}
+
+.home-project-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: left;
+}
+
+.home-project-bottom-left {
+  color: white;
+  width: 49%;
+}
+
+.home-project-bottom-right {
+  font-size: 1.2em;
+  color: white;
+  width: 49%;
 }/*# sourceMappingURL=home.css.map */
