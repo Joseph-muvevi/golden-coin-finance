@@ -83,8 +83,7 @@
   height: 10vh;
 }
 
-.home-service-content {
-  width: 100%;
+.home-service-content-units {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -228,4 +227,18 @@
   font-size: 1.2em;
   color: white;
   width: 49%;
+}
+
+.home-team {
+  height: 40vh;
+}
+
+.home-team-content {
+  width: 75vw;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
 }/*# sourceMappingURL=home.css.map */

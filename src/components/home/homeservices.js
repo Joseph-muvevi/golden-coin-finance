@@ -9,7 +9,7 @@ const Homeservices = () => {
 				<h2 className="home-service-header">
 					Our Services
 				</h2>
-				<div className="home-service-content">
+				<div className="home-service-content-units">
 					{
 						homeServices.map((el, i) => (
 							<div key={i} className="home-service-unit">

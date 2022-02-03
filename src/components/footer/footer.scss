@@ -1,0 +1,78 @@
+@import "../../sass/layout";
+@import "../../sass/_font.scss";
+
+.footer{
+	min-height: 60vh;
+}
+
+.footer-top{
+	width: 75vw;
+	height: 50vh;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: left;
+}
+
+.footer-left{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	align-items: flex-start;
+	width: 49%;
+	height: 100%;
+}
+
+.footer-right{
+	width: 49%;
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+	align-items: flex-end;
+	height: 100%;
+}
+
+.footer-p{
+	margin-top: 20vh;
+	font-size: 1.2em;
+	color: #2a2a29;
+}
+
+.footer-links{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+}
+
+.footer-link{
+	font-size: 1.4em;
+	color: #2a2a29;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.footer-link:hover,
+.footer-link:active,
+.footer-link:focus{
+	color: black
+}
+
+.footer-social-links{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20vh;
+	width: 50%;
+}
+
+.social-link{
+	font-size: 1.7em;
+}
+
+
+.footer-link:hover,
+.footer-link:active,
+.footer-link:focus{
+	color: black
+}

@@ -14,7 +14,7 @@ const Navbar = () => {
 				{
 					navbar &&
 					navbar.map((item, index) => (
-							<NavHashLink to={`${item.path}/#top`} key={index} className="navlink-items">
+							<NavHashLink to={`${item.path}#top`} key={index} className="navlink-items">
 								{item.name}
 							</NavHashLink>
 						))

@@ -14,13 +14,13 @@ const Homeproject = () => {
 							{topLeft.content}
 						</p>
 						<div className="banner-content-links">
-								<div className="banner-font-icon">
-									{topLeft.icon}
-								</div>
-								<p className="banner-link">
-									{topLeft.buttonText}
-								</p>
+							<div className="banner-font-icon">
+								{topLeft.icon}
 							</div>
+							<p className="banner-link">
+								{topLeft.buttonText}
+							</p>
+						</div>
 					</div>
 					<div className="home-project-top-right">
 

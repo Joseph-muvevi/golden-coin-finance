@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from "../../components/footer/footer";
 import Banner from "../../components/home/banner";
 import Homeabout from "../../components/home/homeabout";
 import Homeempty from "../../components/home/homeempty";
@@ -15,6 +16,7 @@ const Home = () => {
           <Homeempty/>
           <Homeproject/>
           <Hometeam/>
+          <Footer/>
       </div>
   );
 };

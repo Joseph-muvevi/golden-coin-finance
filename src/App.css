@@ -8,6 +8,10 @@ button {
   text-transform: uppercase;
 }
 
+h1 {
+  font-size: 4.5em;
+}
+
 h2 {
   font-size: 2.5em;
 }
@@ -18,4 +22,31 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: "Roboto Slab", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.full-horizontal-line {
+  width: 100%;
+  height: 1px;
+  border: 0em;
+  background-color: grey;
+}
+
+.content-links {
+  max-width: 500px;
+  min-width: 300px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.card-link {
+  color: #2a2a29;
+}
+
+.p-card-link {
+  margin-left: 20px;
 }/*# sourceMappingURL=App.css.map */
