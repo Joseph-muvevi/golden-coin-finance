@@ -1,0 +1,54 @@
+.contact-banner {
+  height: 70vh;
+  max-width: 100vw;
+}
+
+.contact-banner-main {
+  background: linear-gradient(to bottom, #2a2a29ad, #2a2a2971), url(../../assets/slider2.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: -14vh;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.contact-main-content {
+  width: 80vw;
+  margin: auto;
+  text-align: left;
+}
+
+.top-banner-line {
+  background-color: #fae8a7;
+  border: 0px;
+  width: 200px;
+  height: 5px;
+  align-self: flex-start;
+}
+
+.banner-header {
+  color: #fae8a7;
+}
+
+.contact-info {
+  min-height: 70vh;
+  background-color: #fae8a7;
+  padding: 20px;
+}
+
+.contact-info-content {
+  width: 75vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  background-color: aqua;
+}
+
+.contact-info-left {
+  width: 48%;
+}/*# sourceMappingURL=contact.css.map */

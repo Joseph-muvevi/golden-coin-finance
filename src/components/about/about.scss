@@ -1,0 +1,214 @@
+@import "../../sass/_layout.scss";
+@import "../../sass/font.scss";
+
+
+// ==========about banner=======
+.about-banner {
+	height: 70vh;
+	max-width: 100vw;
+}
+
+.about-banner-main{
+	background: linear-gradient(to bottom, #2a2a29ad, #2a2a2971), url(../../assets/slider2.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-top: -14vh;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+}
+
+.about-main-content{
+	width: 80vw;
+	margin: auto;
+	text-align: left;
+}
+
+.top-banner-line{
+	background-color: $primaryColor;
+	border: 0px;
+	width: 200px;
+	height: 5px;
+	align-self: flex-start;
+}
+
+.banner-header{
+	color: $primaryColor;
+}
+
+// ===========about intro=================
+.about-intro{
+	background-color: $primaryColor;
+	height: 100vh;
+}
+
+.about-intro-content{
+	width: 75vw;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	margin-bottom: 20px;
+}
+
+.about-intro-content-left{
+	height: 100%;
+	width: 49%;
+}
+
+.about-intro-img{
+	width: 35vw;
+	height: 100%;
+}
+
+
+.about-intro-content-right{
+	height: 100%;
+	width: 49%;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.about-intro-header{
+	font-size: 25px;
+}
+
+.about-intro-li{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.about-intr-li-p{
+	margin-left: 10px;
+}
+
+
+// ===========testimonials=============
+.testimonials{
+	min-height: 100vh;
+	background-color: $secondaryColor;
+	padding: 20px;
+}
+
+.testimonials-content{
+	width: 75vw;
+	margin: 10vh auto auto auto;
+	text-align: left;
+}
+
+.testimonials-body{
+	text-align: left;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	width: 100%;
+	// flex-wrap: wrap;
+}
+
+.testimonials-card-unit{
+	width: vw;
+	padding: 10px;
+}
+
+.testimonials-paragraph{
+	font-family: $bodyFont;
+	font-size: 1.25em;
+	color: $darkColor
+}
+
+.testimonials-author-name{
+	font-family: $bodyFont;
+	font-size: 1.25em;
+	color: $darkColor;
+	font-weight: 600;
+}
+
+
+.testimonials-author{
+	display: flex;
+	justify-content: left;
+}
+
+.testimonials-author-image{
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	background-size: cover;
+	background-position: center;
+}
+
+.testimonials-author-section{
+	list-style: none;
+}
+
+.testimonials-author-name{
+	font-family: $bodyFont;
+	font-size: 1.25em;
+	color: #777777;
+	text-transform: uppercase;
+}
+
+.testimonials-author-title{
+	font-family: $bodyFont;
+	font-size: 1.25em;
+}
+
+// =================about with card===============
+.about-with-card{
+	min-height: 50vh;
+	background-color: $darkColor;
+}
+
+.about-width-card-content{
+	width: 75vw;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	bottom: 15vh;
+}
+
+.about-with-card-top{
+	display: flex;
+	min-height: 75vh;
+	width: 75vw;
+    margin: auto;
+}
+
+.about-with-card-top-left{
+	background-color: $primaryColor;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	width: 39%;
+	padding: 0px 20px;
+}
+
+.about-with-card-unit-header{
+	font-size: 1.7em;
+	color: rgba(42,42,41,255);
+}
+
+.about-with-card-unit-content{
+	font-size: 1.2em;
+	color: #2a2a29;
+}
+
+.banner-content-links{
+	color: #2a2a29;
+}
+
+.about-with-card-top-right{
+	background-image: url(../../assets/slider1.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 59%;
+}

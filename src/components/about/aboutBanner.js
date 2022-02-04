@@ -1,17 +1,17 @@
 import React from 'react';
 import Navbar from "../navbar/navbar";
-import "./contact.css"
+import "./about.css"
 
-const ContactBanner = () => {
+const AboutBanner = () => {
 	return (
-		<div className="contact-banner">
+		<div className="about-banner">
 		<Navbar/>
 
-		<div className="contact-banner-main">
-			  <div className="contact-main-content">
+		<div className="about-banner-main">
+			  <div className="about-main-content">
 					<div className="top-banner-line"></div>
 				  <h1 className="banner-header">
-					  Contact Us
+					  About us
 				  </h1>
 			  </div>
 		</div>
@@ -19,4 +19,4 @@ const ContactBanner = () => {
 	);
 };
 
-export default ContactBanner;
+export default AboutBanner;

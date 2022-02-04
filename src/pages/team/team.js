@@ -1,10 +1,13 @@
 import React from 'react';
 import Footer from "../../components/footer/footer";
+import TeamBanner from "../../components/team/teambanner";
+import TeamManagement from "../../components/team/teamManagement";
 
 const Team = () => {
 	return (
 		<div>
-			team 
+			<TeamBanner/>
+			<TeamManagement/>
 			<Footer/>
 		</div>
 	);
