@@ -29,7 +29,7 @@ const ContactInfo = () => {
 							<h3 className="contact-header">
 								{socialMedia.header}
 							</h3>
-							<div className="contact-location">
+							<div className="contact-links">
 								{
 									socialMedia.icons.map((el, i) => (
 										<a 
@@ -46,7 +46,12 @@ const ContactInfo = () => {
 					</div>
 				</div>
 				<div className="contact-info-right">
-					
+					<h3 className="contact-info-right-h3">
+						Send us message
+					</h3>
+					<p className="contact-info-right-p">
+						info@examplemail.com
+					</p>
 				</div>
 			</div>
 		</div>
