@@ -104,15 +104,21 @@
 		align-items: left;
 	}
 
+	.footer-p{
+		font-size: 1em;
+	}
+	
 	.footer-links{
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: left;
 	}
-
+	
 	.footer-link{
+		font-size: 1em;
 		padding-top: 10px;
+		font-family: $headerFont;
 	}
 
 	.footer-social-links{
