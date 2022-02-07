@@ -33,6 +33,7 @@ const ContactInfo = () => {
 								{
 									socialMedia.icons.map((el, i) => (
 										<a 
+											key={i}
 											className="contact-social-links"
 											href={el.link}
 											target="_blank"

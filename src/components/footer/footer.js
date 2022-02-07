@@ -37,7 +37,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<hr/>
+			<hr className="footer-hr"/>
 			<div className="footer-botom">
 				<p className="copyright">
 					Copyright © 2022

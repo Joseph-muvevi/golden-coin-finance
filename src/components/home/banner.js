@@ -16,7 +16,7 @@ const Banner = () => {
 							<p className="banner-p">
 								{bannerItems.content}
 							</p>
-							<div className="banner-content-links">
+							<div className="home-banner-content-links">
 								<div className="banner-font-icon">
 									{bannerItems.icon}
 								</div>
