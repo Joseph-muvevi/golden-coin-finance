@@ -23,11 +23,17 @@ const Navbar = () => {
   return (
 	  <div className="navbar">
 			<div className="nav-logo-phone">
-				{navlogo.logo}
+				<img 
+					src={navlogo.logo}
+					alt={navlogo.alt}
+					className="navlogo-image"/>
 			</div>	
 		  <nav className={"navbar-content"+ navContentClassName}>
 			  <div className="nav-logo">
-				  {navlogo.logo}
+				<img 
+						src={navlogo.logo}
+						alt={navlogo.alt}
+						className="navlogo-image"/>
 			  </div>
 				<div className="nav-middle">
 				{

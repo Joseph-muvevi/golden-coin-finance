@@ -4,11 +4,12 @@ import {
 	BsYoutube,
 	BsInstagram
 } from "react-icons/bs";
+import LOGO from "../../assets/LOGO.png"
 
 export const footerLeft = {
 	logo : {
-		logo: "LOGO HERE",
-		alt: "logo alt content here"
+		logo: LOGO,
+		alt: "Operating Capital Network LLC LOGO"
 	},
 	content: `
 		A3212, Grosvenor Road, London U.K

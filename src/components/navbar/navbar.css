@@ -26,6 +26,11 @@
   width: 28vw;
 }
 
+.navlogo-image {
+  width: 250px;
+  margin-top: 50px;
+}
+
 .nav-middle {
   display: flex;
   height: 100%;

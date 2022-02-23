@@ -1,3 +1,4 @@
+import LOGO from "../../assets/LOGO.png"
 
 export const navbar = [
 	{
@@ -24,7 +25,8 @@ export const navbar = [
 
 export const navlogo = {
 	path: "/",
-	logo: "LOGO HERE"
+	logo: LOGO,
+	alt:"Operating Capital Network LLC LOGO"
 }
 
 export const navbtn = {

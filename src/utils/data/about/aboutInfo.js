@@ -4,12 +4,12 @@ export const aboutInfo = {
 	header: "Brief Background",
 	content: {
 		paragraph: [
-			`Golden Coin Finance is an investment and trading 
+			`Operating Capital Network LLC is an investment and trading 
 			platform built to expedite the attainment of the 
 			financial goals of our customers. Established in 
 			1990, we are regulated by the UK Securities and 
 			Investments Commission.`,
-			`Golden Coin Finance is one of the 
+			`Operating Capital Network LLC is one of the 
 			world’s leading independent companies headquartered 
 			in UNITED KINGDOM with branches in Dubai, Hong Kong and USA. 
 			We offer an in-depth look into various sectors of the markets 

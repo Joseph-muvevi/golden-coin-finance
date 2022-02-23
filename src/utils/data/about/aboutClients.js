@@ -23,7 +23,7 @@ export const aboutClient = {
 		{
 			stars : 5,
 			content : `
-				The swiftness with which Golden Coin Finance executes 
+				The swiftness with which Operating Capital Network LLC executes 
 				their bureaucracies is top notch. in less than two weeks 
 				our application had been processed and the loan granted.
 			`,
@@ -40,7 +40,7 @@ export const aboutClient = {
 			stars : 4.5,
 			content : `
 				I just cant' describe enough how satisfied I was with 
-				the level of professionalism I found at Golden Coin Finance. 
+				the level of professionalism I found at Operating Capital Network LLC. 
 				I can't wait for my loan to be approved as I have 
 				already applied and met all the requirements.
 			`,
@@ -58,7 +58,7 @@ export const aboutClient = {
 			content : `
 				I got my quick loan of $12M last year and this has helped me a 
 				lot to boost my business since we have been adversely affected 
-				by COVID-19. I can't be thankful enough to Golden Coin Finance.
+				by COVID-19. I can't be thankful enough to Operating Capital Network LLC.
 			`,
 			author : {
 				image: {
